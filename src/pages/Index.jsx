@@ -6,11 +6,11 @@ const Index = () => {
   const toast = useToast();
 
   const handleTestSEO = () => {
-    console.log("SEO Test button clicked");
+    console.log("SEO Test button clicked for https://www.nivalltheway.com/");
 
     toast({
-      title: "SEO Test Started",
-      description: "The SEO test is running. Results will be displayed here once the test is complete.",
+      title: "SEO Test Initiated for https://www.nivalltheway.com/",
+      description: "The SEO test for https://www.nivalltheway.com/ is running. Results will be displayed here once the test is complete.",
       status: "info",
       duration: 9000,
       isClosable: true,
