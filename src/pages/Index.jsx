@@ -9,8 +9,8 @@ const Index = () => {
     // This function would ideally call your backend API to perform an SEO test
     // For now, it just shows a toast message
     toast({
-      title: "SEO Test Initiated",
-      description: "This is where the SEO test results would be displayed.",
+      title: "SEO Test Started",
+      description: "The SEO test is running. Results will be displayed here once the test is complete.",
       status: "info",
       duration: 9000,
       isClosable: true,
